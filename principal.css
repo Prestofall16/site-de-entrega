@@ -1,0 +1,195 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    body{background-color:rgb(240, 237, 273) ;}
+
+    h3{font-size: 25px;}
+
+    h4{font-size: 30px;
+    }
+
+    
+    header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        
+    
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 150px;}
+    
+    header button{background-color: black;
+    color: white;
+    font-size: 25px;
+    border: 0;}
+    
+    header svg {
+    width: 49px;
+    height: 49px;
+    fill: white}
+
+    header a{text-decoration: none;
+    color: white;}
+    
+    #logo img {
+    width: 179px;
+    height: 150px;}  
+    
+    #banner {width: 100%;
+    height: 403px;
+    }
+    
+    #referencial{width: 650px;
+    height: 315px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center; }
+    
+    
+    #referencial img {width: 550px;
+    height: 315px;
+    margin-left: 50px;  }
+
+    nav {display: flex;
+        width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;}
+    
+
+    nav svg {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 30%}
+
+    
+
+    #busca{width: 663px;
+    height: 100px;
+    border-radius: 40px;
+     text-align: center;
+    font-size: 40px;}
+
+    main{display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+    main div{width: 50%;
+    height: 410px;
+    
+    
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+    .cardapio{ background-color: white;
+        width: 400px;
+        height:410px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-right: 50px;
+     }
+
+    .cardapio img {width: 366px;
+    height: 190px;
+    border-radius: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px; }
+
+    main h1 {font-size: 40px;
+    margin-left: 55px;}
+
+    main h3,p{margin-left: 15px;}
+
+    .precos{display: flex;
+        justify-items: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 10px;
+    
+        }
+
+    
+    .precoA{margin-left: 20px;}
+    .precoB{opacity: 50%;}
+
+    .barra{width: 140px;
+    height: 8px;
+    background-color: black;
+    position: relative;
+    bottom: 13%;
+    left: 38%;
+    opacity: 50%;}
+
+    main a{text-decoration: none;
+    color: black;}
+
+    .margin{margin-left: 50px;}
+
+    footer{background-color: black;
+    width: 100%;
+    height: 180px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-template-rows: 1fr 1fr ;
+    justify-items: center;
+    text-align: center;
+    margin-top: 150px;}
+
+    footer h1 {padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+    footer>div>p{font-size: 15px;
+    text-align: center;}
+
+    #contato{display: grid;
+    grid-template-columns: 0.1fr 0.1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    
+    }
+    #contato svg {width: 16px;
+    height: 16px;
+    fill: white;
+
+    
+    }
+    #contato p{color: red;}
+
+    #pagamento{
+    
+    display: flex;
+    gap: 25px;}
+    #pagamento svg{width: 40px;
+    height: 40px;
+    fill: white;
+    
+
+
+    }
+
+
+
+    
+
+ 
+ 
+
+    
+    
